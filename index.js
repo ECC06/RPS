@@ -12,7 +12,7 @@ while (validRound <= 5 && !exitIfGameOver) {
         "ROCK! PAPER! SCISSORS! SHOOT! (Type in your answer)",
     ).toLowerCase();
 
-    const randomIndex = Math.floor(Math.random() * 3); //Generate a number between 0 and 2 inclusive
+    const randomIndex = Math.floor(Math.random() * 3); //generate a number between 0 and 2 inclusive
     const computerChoice = choices[randomIndex];
 
     const computerWinsWithPaper =
