@@ -9,7 +9,7 @@ while (validRound <= 5 && !exitIfGameOver) {
     console.log(validRound);
 
     const userChoice = prompt(
-        "ROCK! PAPER! SCISSORS! SHOOT! (Type in your answer)",
+        "ROCK! PAPER! SCISSORS! SHOOT! (Type in your response)",
     ).toLowerCase();
 
     const randomIndex = Math.floor(Math.random() * 3); //generate a number between 0 and 2 inclusive
