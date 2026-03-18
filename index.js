@@ -1,4 +1,4 @@
-const array = ["rock", "paper", "scissors"]; //arr.includes("harrison") => false
+const array = ["rock", "paper", "scissors"]; //arr.includes("Harrison") => false
 const randomNum = Math.random() * 3 // a random number between 0 and 2.99999999
 const roundedDown = Math.floor(randomNum) //round down the random number e.g 2.99999 rounded down to 2
 
